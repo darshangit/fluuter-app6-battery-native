@@ -55,7 +55,7 @@ public class MainActivity extends FlutterActivity {
 
           if (batteryLevel != -1) {
             result.success(batteryLevel);
-          } else {
+          } else {77
             result.error("UNAVAILABLE", "Battery level not available.", null);
           }
         } else {
